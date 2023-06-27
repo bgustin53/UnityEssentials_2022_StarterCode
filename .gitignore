@@ -11,6 +11,7 @@
 /[Uu]ser[Ss]ettings/
 /[Aa]ssets/[Ff]antasy[Ee]nvironments/
 /[Aa]ssets/[Ww]orld[Mm]aterials[Ff]ree/
+/[Aa]ssets/[Tt]errain[Ss]ample[Aa]ssets/
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
@@ -49,16 +50,14 @@ ExportedObj/
 *.opendb
 *.VC.db
 
-# Tif files solely in the Terrain Sample Asset pack
-Assets/TerrainSampleAssets/**/*.tif
-Assets/TerrainSampleAssets/**/*.tif.meta
-Assets/TerrainSampleAssets/**/*.tiff
-Assets/TerrainSampleAssets/**/*.tiff.meta
-
 # Unity3D generated meta files
 *.pidb.meta
 *.pdb.meta
 *.mdb.meta
+/[Aa]ssets/[Ff]antasy[Ee]nvironments.meta
+/[Aa]ssets/[Ww]orld[Mm]aterials[Ff]ree.meta
+/[Aa]ssets/[Tt]errain[Ss]ample[Aa]ssets.meta
+
 
 # Unity3D generated file on crash reports
 sysinfo.txt
